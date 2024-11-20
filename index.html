@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" href="./images/1.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"id="nav-style">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h2>Gr<span style="color: green;">ee</span>ns</h2></a> 
+            <!-- color given in title -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav" >
+            <ul class="navbar-nav m-auto" >
+              <li class="nav-item ps-2" >
+                <a class="nav-link active" aria-current="page" href="#" style="color: green;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <!-- NAVBAR CODE  -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/2.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+  <!-- carousal ends here -->
+  <div class="container  mt-5">
+    <div class="row">
+      <!-- Product 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/pexels-paggiarofrancesco-1117862.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">non </h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, eius?</p>
+          </div>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-md-4 mb-4 ">
+        <div class="card">
+          <img src="./images/pexels-dana-tentis-118658-262959.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Fishfry</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/pexels-enginakyurt-1437267.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Pasta</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- sample products ends here -->
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <!-- Text Section -->
+      <div class="col-md-6">
+        <h2 class="display-4 mb-4">About Our Restaurant</h2>
+        <p class="lead mb-4">At <strong>GR<span style="color: green;">EE</span>NS</strong>, we bring the flavors of all over world to your table. Located in the heart of the city, we are passionate about serving authentic Italian dishes made with the finest ingredients. Our chef uses traditional recipes passed down through generations, ensuring every bite is full of love and flavor.</p>
+        <p>Whether you're here for a casual dinner, a special celebration, or a family gathering, our warm and inviting atmosphere will make you feel at home. Our mission is to create an unforgettable dining experience with delicious food, exceptional service, and a cozy ambiance. Come and indulge in our exquisite menu offerings!</p>
+        <a href="#menu" class="btn btn-primary btn-lg">View Our Menu</a>
+      </div>
+      <!-- Image Section -->
+      <div class="col-md-6">
+        <img src="./images/mustafa-fatemi-F_GyZUOoa8k-unsplash.jpg" class="img-fluid rounded shadow-lg" alt="Restaurant Interior">
+      </div>
+    </div>
+  </div>
+  <!-- menu card -->
+  <div class="container py-5" data-aos="flip-left">
+    <h2 class="text-center mb-5">Our Menu</h2>
+    
+    <div class="row">
+      <!-- Breakfast Column -->
+      <div class="col-md-4">
+        <h3 class="text-center mb-4">Breakfast</h3>
+        
+        <!-- Product 1 -->
+        <div class="card mb-4">
+          <img src="./images/pancake.jpg" class="card-img-top" alt="Pancakes">
+          <div class="card-body">
+            <h5 class="card-title">Pancakes</h5>
+            <p class="card-text">Fluffy pancakes served with maple syrup and fresh berries.</p>
+            <p class="card-text"><strong>$8.99</strong></p>
+          </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="card mb-4">
+          <img src="./images/omlet.jpg" class="card-img-top" alt="Omelette">
+          <div class="card-body">
+            <h5 class="card-title">Veggie Omelette</h5>
+            <p class="card-text">Eggs, spinach, tomatoes, and cheese for a healthy start to the day.</p>
+            <p class="card-text"><strong>$7.49</strong></p>
+          </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="card mb-4">
+          <img src="./images/french fires.jpg" class="card-img-top" alt="French Toast">
+          <div class="card-body">
+            <h5 class="card-title">French Toast</h5>
+            <p class="card-text">Golden, crispy French toast served with powdered sugar and syrup.</p>
+            <p class="card-text"><strong>$9.99</strong></p>
+          </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="card mb-4">
+          <img src="./images/egg toast.jpg" class="card-img-top" alt="Eggs Benedict">
+          <div class="card-body">
+            <h5 class="card-title">Eggs Benedict</h5>
+            <p class="card-text">Two poached eggs on English muffins with ham and hollandaise sauce.</p>
+            <p class="card-text"><strong>$10.99</strong></p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Lunch Column -->
+      <div class="col-md-4">
+        <h3 class="text-center mb-4">Lunch</h3>
+        
+        <!-- Product 1 -->
+        <div class="card mb-4">
+          <img src="./images/c saled.jpg" class="card-img-top" alt="Caesar Salad">
+          <div class="card-body">
+            <h5 class="card-title">Caesar Salad</h5>
+            <p class="card-text">Crisp lettuce, croutons, parmesan cheese, and Caesar dressing.</p>
+            <p class="card-text"><strong>$10.99</strong></p>
+          </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="card mb-4">
+          <img src="./images/grilled chicken sandwich.jpg" class="card-img-top" alt="Grilled Chicken Sandwich">
+          <div class="card-body">
+            <h5 class="card-title">Grilled Chicken Sandwich</h5>
+            <p class="card-text">Grilled chicken breast with lettuce, tomato, and mayo on a toasted bun.</p>
+            <p class="card-text"><strong>$11.49</strong></p>
+          </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="card mb-4">
+          <img src="./images/bts.jpg" class="card-img-top" alt="BLT Sandwich">
+          <div class="card-body">
+            <h5 class="card-title">BLT Sandwich</h5>
+            <p class="card-text">Bacon, lettuce, tomato, and mayo served on toasted bread.</p>
+            <p class="card-text"><strong>$8.99</strong></p>
+          </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="card mb-4">
+          <img src="./images/veg.jpg" class="card-img-top" alt="Veggie Wrap">
+          <div class="card-body">
+            <h5 class="card-title">Veggie Wrap</h5>
+            <p class="card-text">Fresh veggies wrapped in a tortilla with hummus and a side of chips.</p>
+            <p class="card-text"><strong>$9.49</strong></p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Dinner Column -->
+      <div class="col-md-4">
+        <h3 class="text-center mb-4">Dinner</h3>
+        
+        <!-- Product 1 -->
+        <div class="card mb-4">
+          <img src="./images/Spaghetti Bolognese.jpg" class="card-img-top" alt="Spaghetti Bolognese">
+          <div class="card-body">
+            <h5 class="card-title">Spaghetti Bolognese</h5>
+            <p class="card-text">Pasta topped with a rich and savory meat sauce.</p>
+            <p class="card-text"><strong>$14.99</strong></p>
+          </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="card mb-4">
+          <img src="./images/Grilled Salmon.jpg" class="card-img-top" alt="Grilled Salmon">
+          <div class="card-body">
+            <h5 class="card-title">Grilled Salmon</h5>
+            <p class="card-text">Fresh salmon grilled to perfection, served with vegetables and mashed potatoes.</p>
+            <p class="card-text"><strong>$18.99</strong></p>
+          </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="card mb-4">
+          <img src="./images/Ribeye Steak.jpg" class="card-img-top" alt="Ribeye Steak">
+          <div class="card-body">
+            <h5 class="card-title">Ribeye Steak</h5>
+            <p class="card-text">A juicy 12oz ribeye, cooked to your preference, served with garlic mashed potatoes.</p>
+            <p class="card-text"><strong>$22.99</strong></p>
+          </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="card mb-4">
+          <img src="./images/Chicken Alfredo.jpg" class="card-img-top" alt="Chicken Alfredo">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Alfredo</h5>
+            <p class="card-text">Grilled chicken in a creamy Alfredo sauce, served over fettuccine pasta.</p>
+            <p class="card-text"><strong>$16.49</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <section id="services" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="display-4 mb-4">Our Services</h2>
+                    <p class="lead">We offer a variety of delicious meals 24/7, just for you!</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Service 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fa-solid fa-bowl-food"></i>
+                            </div>
+                            <h4 class="service-title">Delicious Food</h4>
+                            <p class="service-description">Indulge in a wide range of freshly prepared, mouth-watering meals.</p>
+                        </div>
+                    </div>
+                </div>
+      <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4 class="service-title">24/7 Service</h4>
+                            <p class="service-description">Craving something at midnight? We are always open, ready to serve you!</p>
+                        </div>
+                    </div>
+                </div>
+       <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fa-solid fa-truck"></i>
+                            </div>
+                            <h4 class="service-title">Fast Delivery</h4>
+                            <p class="service-description">Enjoy your favorite meals delivered hot and fresh to your doorstep.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section ends here -->
+     <div id="booking">
+    <div class="container booking-container" >
+      <div class="card">
+        <div class="card-body"  data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
+          <h4 class="card-title text-center">Table Booking</h4>
+          <form>
+            <!-- Name -->
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+    
+            <!-- Booking Date -->
+            <div class="mb-3">
+              <label for="bookingDate" class="form-label">Booking Date</label>
+              <input type="date" class="form-control" id="bookingDate" required>
+            </div>
+    
+            <!-- Booking Time -->
+            <div class="mb-3">
+              <label for="bookingTime" class="form-label">Booking Time</label>
+              <input type="time" class="form-control" id="bookingTime" required>
+            </div>
+    
+            <!-- Number of People -->
+            <div class="mb-3">
+              <label for="numPeople" class="form-label">Number of People</label>
+              <input type="number" class="form-control" id="numPeople" min="1" max="20" placeholder="Enter number of people" required>
+            </div>
+    
+            <!-- Book Now Button -->
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Book Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- footer startts here -->
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
